@@ -1,5 +1,6 @@
 import {Bodies, Body, Engine, Events, Render, Runner, World} from "matter-js";
 import { FROMIS } from "./fromis";
+import "./style.css";
 
 const engine = Engine.create();
 const render = Render.create({
