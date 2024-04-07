@@ -18,23 +18,23 @@ const world = engine.world;
 
 const leftWall=Bodies.rectangle(15, 396, 30, 790, {
   isStatic: true,
-  render:{ fillStyle: "#E6B143" }
+  render:{ fillStyle: "#DCD0FF" }
 });
 
 const rightWall=Bodies.rectangle(605, 396, 30, 790, {
   isStatic: true,
-  render:{ fillStyle: "#E6B143" }
+  render:{ fillStyle: "#DCD0FF" }
 });
 
 const ground=Bodies.rectangle(310, 820, 620, 60, {
   isStatic: true,
-  render:{ fillStyle: "#E6B143" }
+  render:{ fillStyle: "#DCD0FF" }
 });
 const topLine = Bodies.rectangle(310, 150, 620, 2, {
   name: "topLine",
   isStatic: true,
   isSensor: true,
-  render:{ fillStyle: "#E6B143" }
+  render:{ fillStyle: "#DCD0FF" }
 });
 World.add(world, [leftWall, rightWall, ground, topLine]);
 
